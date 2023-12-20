@@ -154,10 +154,15 @@ footer {
     color: #ffffff !important;
 }
 .btn-outline {
-    color: #ffff;
+    color: #000;
     background-color: #ffffff;
     border-color:#FBB117;
   }
+
+a.btn.btn-outline_events {
+    border-color: #0C4160 !important;
+}
+
 
 a.btn.btn-outline_events {
     border-color: #0C4160 !important;
