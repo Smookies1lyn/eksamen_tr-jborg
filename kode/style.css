@@ -1,0 +1,163 @@
+/* hent font her */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@1,8..144,300&display=swap');
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*---------------------------------------
+                generalt  
+----------------------------------------- */
+body{
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+.artikel_headline, .event_headline, .blog_aeldre_artikler, .nye_artikler, .team_headline, h2.card-title.historie{
+    font-family: 'Roboto Serif', serif;
+    text-align: center;
+    color: #0C4160;
+    padding: 1.25rem;
+    margin-bottom: 32px;
+  }
+h1{
+    text-align: center;
+    color: #0C4160;
+    padding: 2rem;
+    font-family: 'Roboto Serif', serif;
+}
+hr{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.text-justify {
+    text-align: justify!important;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    padding-top: 0;
+}
+
+.justify-content-center1 {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    padding: 2rem;
+}
+.text-body_link, .text-body-1 {
+    color: #FBB117;
+}
+
+.kursiv_grae{
+    font-style: italic;
+    color:#0C4160;
+    font-weight: bold;
+}
+/*--------------------------------------------------
+                    navigation 
+ --------------------------------------------------*/
+.nav{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black !important;
+}
+
+/* ------------------------------------------------------
+                        cards 
+---------------------------------------------------------*/
+.card_medaebejder {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex: 1 0 auto;
+  }
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+.mb-3{
+    margin-bottom:  9rem!important;
+  }
+  .card-body.border-0.ikke_her{
+    text-align: center !important;
+    font-size: 50px;
+  background: -webkit-linear-gradient(#0c4160, #fbb117);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+ 
+.border-0 {
+    padding-top: 0;
+}
+.card-title{
+    color: #0C4160;
+}
+
+/* -----------------------------------------------------------------
+                            billeder
+--------------------------------------------------------------------*/
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+.img-fluid{
+
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+.card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*------------------------------------------------------
+                         footer
+ -------------------------------------------------------*/
+footer {
+    background-color: #0C4160 !important;
+    color: #ffffff;
+    
+}
+
+
+/*--------------------------------------------------------
+                        knapper
+---------------------------------------------------------*/
+.btn btn-outline{
+    background-color:#FBB117 !important;
+    color: #0C4160 !important;
+}
+
+.btn-primary{
+    background-color: #0C4160 !important;
+    color: #ffffff !important;
+}
+.btn-outline {
+    color: fffff;
+    background-color: #ffffff;
+    border-color:#FBB117;
+  }
+
+
+
